@@ -20,7 +20,6 @@ namespace AuthenticationService.Controllers
         public async Task<IActionResult> Register(User userModel)
         {
             var response = new AuthenticateResponse(userModel, "Token");
-            _configuration.GenerateJwtToken();
             //if (response == null)
             //{
             //    return BadRequest(new { message = "Didn't register!" });
