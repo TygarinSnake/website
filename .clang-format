@@ -1,0 +1,19 @@
+Language: Cpp
+BasedOnStyle: Microsoft
+AccessModifierOffset: "-4"
+SortIncludes: false
+PointerAlignment: Left
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 0
+AlignAfterOpenBracket: DontAlign
+AllowShortFunctionsOnASingleLine: Empty
+BreakBeforeBraces: Allman
+SpaceBeforeParens: ControlStatements
+SpaceAfterTemplateKeyword: true
+
+BreakConstructorInitializers: AfterColon
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+ConstructorInitializerIndentWidth: 4
